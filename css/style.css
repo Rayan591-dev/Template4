@@ -385,7 +385,7 @@ a {
     .Yearly-Targets .detalis .text .last{max-width: 115px;
         height: 5px;
         position: relative;
-        left: -6px;}
+        left: -6px;overflow: hidden;}
         .Yearly-Targets .detalis .text .last .one {
         width: 30px;}
         .Yearly-Targets .detalis .text .last .two{width: 85px;}}
@@ -896,8 +896,8 @@ input.email {
 
 @media (max-width:767px) {
     .profile-page .one .span {
-        margin-left: 0%;
-    }
+margin:auto;
+    margin-top: 10px;}
 
     .profile-page .row1 {
         flex-direction: column;
@@ -972,7 +972,7 @@ input.email {
         width: 200px;
     }
     .row2 .four{margin-top: 20px;}
-    .profile-page .row2 .three {width: 100%;}}
+    .profile-page .row2 .three {width: 100%;margin: auto;}}
 
 /*end profile*/
 /*projects*/
