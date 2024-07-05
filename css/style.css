@@ -987,6 +987,8 @@ margin:auto;
 
     .temp1 .text span {
         margin-bottom: 10px;
+        display: flex;
+  align-items: center;
     }
 
     .temp1 .text12 {
