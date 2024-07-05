@@ -382,7 +382,7 @@ a {
 }
 @media (max-width: 767px) {
     .Yearly-Targets .detalis{ display: flex; justify-content: space-between;}
-    .Yearly-Targets .detalis .text .last{width: 170px;
+    .Yearly-Targets .detalis .text .last{max-width: 170px;
         height: 5px;
         position: relative;
         left: -6px;}
@@ -896,7 +896,7 @@ input.email {
 
 @media (max-width:767px) {
     .profile-page .one .span {
-        margin-left: 20%;
+        margin-left: 8%;
     }
 
     .profile-page .row1 {
